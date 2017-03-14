@@ -71,7 +71,7 @@ var AppsMapsEffex = (function (ns) {
     return efx.read (id, key);
   };
   
-  /**
+    /**
   * push to effex
   * @param {object} keys a set of keys
   * @param {object} data the object to write
@@ -100,6 +100,7 @@ var AppsMapsEffex = (function (ns) {
     return result;
     
   };
+
   
   /**
   * objectify a sheet
